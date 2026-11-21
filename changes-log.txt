@@ -1,0 +1,13 @@
+CHANGE LOG - Barry's Car Sales (20 Nov 2026)
+- Added lang="en" to index (WCAG 3.1.1)
+- Added skip link to all pages (WCAG 2.4.1)
+- Made nav the same on every page; marked current page with aria-current
+- Fixed heading levels (h4 to h2/h3) (WCAG 1.3.1)
+- Added useful alt text to all car images (WCAG 1.1.1)
+- Replaced "Click here", "More" and "Ask about this car" with "Enquire about the [car]" links (WCAG 2.4.4, 2.1.1)
+- About page: real table headers and caption, list for "Why customers choose us"
+- Enquiry: labels on every field, fieldset for radio buttons, email/tel input types, autocomplete, required fields
+- Message box: placeholder instead of fake text
+- Added confirmation message on submit (prototype, nothing is sent)
+- Styles: fixed widths replaced with flexible widths, darker placeholder text, larger button
+NOT FIXED: redundant-link alerts in WAVE (links have different text), AAA criteria not pursued, form has no server
